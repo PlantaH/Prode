@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Prode3",
+    "name": "Prode3.1",
     "slug": "Prode3",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.laplantah.Prode3"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.laplantah.Prode3",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
